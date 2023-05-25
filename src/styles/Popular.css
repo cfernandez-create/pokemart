@@ -1,0 +1,8 @@
+.popular-section__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--playfair-display);
+  background-color: #44A4E4;
+}

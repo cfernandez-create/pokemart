@@ -1,0 +1,12 @@
+.about-us__container{
+    display: flex;
+    justify-content: center;
+}
+
+.about-us__images{
+    flex: 1;
+}
+
+.about-us__section{
+    flex: 1;
+}

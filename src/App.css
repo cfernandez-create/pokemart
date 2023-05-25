@@ -1,0 +1,41 @@
+@import url("styles/Main.css");
+@import url("styles/Header.css");
+@import url("styles/Popular.css");
+@import url("styles/About.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #44A4E4;
+  --secondary-color: #364464;
+  --playfair-display: "Playfair Display", serif;
+  --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+
+  --color-creamson: #fff0de;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
