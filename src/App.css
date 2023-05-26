@@ -2,6 +2,8 @@
 @import url("styles/Header.css");
 @import url("styles/Popular.css");
 @import url("styles/About.css");
+@import url("styles/Category.css");
+@import url("styles/Footer.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
@@ -39,3 +41,201 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+.menu-icon{
+  display: none;
+}
+
+.MuiSvgIcon-root.menu-icon {
+  display: none;
+}
+
+.MuiSvgIcon-root.shopping-cart {
+  margin-left: 100px;
+}
+
+
+@media (max-width: 480px) {
+
+  .header-links a{
+    display: none;
+  }
+
+  .MuiSvgIcon-root.menu-icon {
+  display: flex;
+}
+  
+.search__container{
+  display: none;
+}
+
+.main__btn-container{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding:20px;
+  width: 300px;
+}
+
+.popular-section__headline h1{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+  
+.popular-section__cards{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.popular-section__footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.popular-section__footer h6{
+ padding-bottom: 15px;
+}
+
+.category__icons-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: auto;
+  width: 100%;
+
+}
+
+.category__icons {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.category-selected__card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.9);
+  padding: 20px;
+  width: 150px;
+
+}
+
+.category-selected__card img{
+  transform: scale(0.7)
+}
+
+.category-selected__card h4{
+  transform: scale(0.9);
+  width: 150px;
+  text-align:  center;
+}
+
+.category-card__info{
+  transform: scale(0.9);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+}
+
+
+
+@media (max-width: 810px) {
+
+  .header-links a{
+    display: none;
+  }
+
+  .MuiSvgIcon-root.menu-icon {
+  display: flex;
+}
+  
+.main__btn-container{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding:20px;
+  width: 300px;
+}
+
+.popular-section__headline h1{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+  
+.popular-section__cards{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.popular-section__footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.popular-section__footer h6{
+ padding-bottom: 15px;
+}
+
+.category__icons-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: auto;
+  width: 100%;
+
+}
+
+.category__icons {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.category-selected__card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.9);
+  padding: 20px;
+  width: 150px;
+
+}
+
+.category-selected__card img{
+  transform: scale(0.7)
+}
+
+.category-selected__card h4{
+  transform: scale(0.9);
+  width: 150px;
+  text-align:  center;
+}
+
+.category-card__info{
+  transform: scale(0.9);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+}
+

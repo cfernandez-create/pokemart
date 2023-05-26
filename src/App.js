@@ -5,11 +5,15 @@ import About from "./components/About";
 import Popular from "./components/Popular"
 import { CssBaseline, GlobalStyles } from "@mui/material/";
 import { ThemeProvider, createTheme } from "@mui/material";
+import Reviews from "./components/Reviews";
+import Category from "./components/Category";
+import Footer from "./components/Footer";
+
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#44A4E4", 
+      main: "#217dbb", 
     },
     secondary: {
       main: "#364464", 
@@ -18,6 +22,9 @@ const theme = createTheme({
       default: '#fff0de'
     }
   },
+  textfield: {
+    background: 'white'
+  }
 });
 
 function App() {
@@ -33,8 +40,11 @@ function App() {
         }} />
     <Header />
     <Main />
-    <About />
     <Popular />
+    <Reviews/>
+    <About />
+    <Category/>
+    <Footer />
  </ThemeProvider>
   </div>
 )}

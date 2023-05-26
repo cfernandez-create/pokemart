@@ -1,12 +1,33 @@
 .about-us__container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .about-us__images{
-    flex: 1;
+    flex:1;
+    width: 50%;
+}
+.about-us__images img{
+    width: 100%;
+    filter: grayscale(50%);
+    height: 271px;
+    display: flex;
 }
 
 .about-us__section{
+    width: 50%;
+    height: 271px;
     flex: 1;
+    background-color: #DEDFE2 ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--playfair-display);
+}
+
+.about-us__section p{
+font-family: var(--plus-jakarta-sans);
+padding: 20px;
 }
