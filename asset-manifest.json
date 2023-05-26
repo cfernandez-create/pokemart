@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pokemart/static/css/main.ff0123f9.css",
+    "main.js": "/pokemart/static/js/main.41bf03f0.js",
+    "static/media/main-1.jpg": "/pokemart/static/media/main-1.4b579a1c61f5bfeeabef.jpg",
+    "static/media/aboutus-1.jpg": "/pokemart/static/media/aboutus-1.4350a5040b0305a9b979.jpg",
+    "static/media/popular-1.png": "/pokemart/static/media/popular-1.67de813ade88720c3553.png",
+    "static/media/popular-6.png": "/pokemart/static/media/popular-6.8956d52191cc63d7ceaa.png",
+    "static/media/main-3.png": "/pokemart/static/media/main-3.6f383ec3fca4084b5975.png",
+    "static/media/main-2.png": "/pokemart/static/media/main-2.6d79d075282eeb8dc267.png",
+    "static/media/popular-7.png": "/pokemart/static/media/popular-7.166c48f972475b6bc94c.png",
+    "index.html": "/pokemart/index.html",
+    "static/media/play-circle.svg": "/pokemart/static/media/play-circle.22fda3672f2d4f472857211426e1ae8b.svg",
+    "main.ff0123f9.css.map": "/pokemart/static/css/main.ff0123f9.css.map",
+    "main.41bf03f0.js.map": "/pokemart/static/js/main.41bf03f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff0123f9.css",
+    "static/js/main.41bf03f0.js"
+  ]
+}
