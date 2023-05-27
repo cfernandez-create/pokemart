@@ -19,13 +19,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow-x: auto;
-  white-space: nowrap;
-  width: 390;
 }
 
 .cards{
-  width: 250px;
   background-color: #fff0de4f;
   border-radius: 20px;
   margin: 50px 10px 190px 20px;

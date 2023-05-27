@@ -1,13 +1,5 @@
 import React from 'react'
 import mainImg from '../assets/main-2.png'
-import playCircle from '../assets/play-circle.svg'
-import AOS from 'aos';
-import "aos/dist/aos.css";
-
-AOS.init({
-    duration: 1000,
-    offset: 100,
-});
 
 function Main() {
   return (

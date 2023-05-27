@@ -5,6 +5,7 @@ import pokeBall from '../assets/popular-6.png'
 import potions from '../assets/popular-7.png'
 import TextField from '@mui/material/TextField';
 
+
 function Popular() {
   return (
     <>
@@ -13,7 +14,7 @@ function Popular() {
         <h1>Explore PokéMart's Popular Picks</h1> <h3>Unleash the Power of your Pokémon!</h3>
     </div>
     <div className='popular-section__cards'>
-      <div data-aos="fade-right" className='popular-section__first-card cards'>
+      <div className='popular-section__first-card cards'>
     <img src={bikeImg} alt="bike img" />
     <h5><em>Adventure</em></h5>
     <h4>Bicycle</h4>
@@ -23,7 +24,7 @@ function Popular() {
       <button className="popular-section__buy-now hidden">Buy Now</button>
     </div>
 
-    <div data-aos="fade-up" className='popular-section__second-card cards'>
+    <div className='popular-section__second-card cards'>
     <img src={pokeBall} alt="pokeball img" />
     <h5><em>Adventure</em></h5>
     <h4>Pokéball</h4>
@@ -33,7 +34,7 @@ function Popular() {
       <button className="popular-section__buy-now hidden">Buy Now</button>
     </div>
 
-    <div data-aos="fade-left" className='popular-section__third-card cards'>
+    <div className='popular-section__third-card cards'>
     <img src={potions} alt="bike img" />
     <h5><em>Adventure</em></h5>
     <h4>Potion Variety Pack!</h4>

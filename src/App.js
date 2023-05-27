@@ -10,6 +10,7 @@ import Category from "./components/Category";
 import Footer from "./components/Footer";
 
 
+
 const theme = createTheme({
   palette: {
     primary: {

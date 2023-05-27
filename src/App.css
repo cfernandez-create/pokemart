@@ -116,7 +116,6 @@ a {
 .category__icons {
   display: flex;
   align-items: center;
-  white-space: nowrap;
 }
 
 .category-selected__card{
